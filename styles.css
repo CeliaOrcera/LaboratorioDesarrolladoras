@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  background-color: #242933;
+  color: #abb9e0;
+}
+
+main {
+  padding: 3rem;
+  align-self: center;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  width: 90%;
+  padding: 12px 20px 12px 40px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #242933;
+  border-radius: 5px;
+  font-size: 16px;
+  background-image: url('file:///C:/Users/inmar/OneDrive/Escritorio/Laboratorio/images/error-icon.svg');
+  background-position: 10px center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+input[type='text'].valid,
+input[type='email'].valid,
+input[type='password'].valid {
+  background-image: url('file:///C:/Users/inmar/OneDrive/Escritorio/Laboratorio/images/success-icon.svg');
+}
+
+p {
+  font-weight: bold;
+  padding: 3;
+  color: #6d7692;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+input[type='submit'] {
+  background-color: #6c63ff;
+  color: #d7d5ff;
+  border-color: #252627;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: #252627;
+  color: #d7d5ff;
+}
